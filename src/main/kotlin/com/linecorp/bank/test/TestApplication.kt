@@ -1,7 +1,5 @@
 package com.linecorp.bank.test
 
-import javafx.application.Application
-import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.builder.SpringApplicationBuilder
 import org.springframework.boot.runApplication
@@ -17,4 +15,3 @@ class TestApplication : SpringBootServletInitializer() {
 fun main(args: Array<String>) {
     runApplication<TestApplication>(*args)
 }
-
